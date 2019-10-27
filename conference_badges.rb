@@ -5,5 +5,5 @@ def batch_badge_creator(array)
     new_array << messages
   end
   new_array
-    
-end 
+
+end
