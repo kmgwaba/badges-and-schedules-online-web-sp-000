@@ -7,10 +7,10 @@ end
 
 
 def batch_badge_creator(array)
-  new_Array = []
-  array.each do |messages|
-    new_Array << array(messages)
-  end
-  new_array
+  array = []
+  array.each do |name|
+    array << badge_maker(name)
+  end 
+  array 
 
 end
