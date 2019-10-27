@@ -6,9 +6,10 @@ end
 
 
 
-def batch_badge_creator(array)
-  
-  array.each do |name|
+def batch_badge_creator(speakers)
+  array = []
+
+  speakers.each do |name|
     array << badge_maker(name)
   end
   array
